@@ -1,0 +1,36 @@
+.divs{
+    height: 93vh;
+   
+}
+
+.row{
+    margin: 0;
+}
+iframe{
+    width: 100%;
+    height:93.5vh;
+    border: none;
+    margin: 0;
+    
+}
+html{
+    overflow-y: hidden;
+}
+body{
+    background-color: #2D2D2D;
+}
+#left{
+    border-right: solid 1px black;
+}
+#right{
+    border-left: solid 1px black;
+}
+@media screen and (max-width: 700px) and (min-width: 350px){
+    iframe{
+        width: 100%;
+        height:93vh;
+        border: none;
+        margin: 0;
+        
+    }
+}
